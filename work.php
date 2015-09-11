@@ -42,6 +42,7 @@ function delMode($lists) {
 					$unsure[] = '#'.($key+1).': '.implode(',', $line);
 				} else {*/
 					unset($lists['main-input-file'][$key]);
+					break;
 				//}
 			}
 		}
