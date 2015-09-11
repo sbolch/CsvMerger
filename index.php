@@ -14,6 +14,10 @@
 		<div class="container">
 			<h1>Awesome CSV Merger <?=$config['version']?></h1>
 
+			<p>
+				<strong>A bemeneti fájlok helye az input mappában van, a kimeneti fájlok pedig az output mappába kerülnek.</strong>
+			</p>
+
 			<?php
 				if(isset($_SESSION['msg'])) {
 					echo '<p class="msg">'.$_SESSION['msg'].'</p>';

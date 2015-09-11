@@ -10,9 +10,8 @@ body {
 	margin: 0 auto;
 }
 
-small {
-	color: #2c2;
-}
+small { color: #2c2; }
+strong { color: #00a; }
 
 label {
 	display: block;
