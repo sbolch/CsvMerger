@@ -1,0 +1,44 @@
+body {
+	background: #222;
+	color: #0a0;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+small {
+	color: #2c2;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+select,
+input[type|="submit"] {
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 5px 10px;
+	background: #eee;
+}
+
+input[type|="submit"] {
+	margin-top: 30px;
+	padding: 10px 20px;
+	background: #0a0;
+	color: #eee;
+	border: none;
+}
+input[type|="submit"]:hover,
+input[type|="submit"]:active {
+	background: #2c2;
+}
+
+.unsure {
+	border: thin solid #060;
+}
